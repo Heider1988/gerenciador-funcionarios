@@ -54,7 +54,7 @@ Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir o
 
 - ``Java 11 como linguagem de programação no back-end``
 - ``Spring Boot como Framework na construção da aplicação``
-- ``Html, CSS, JS e Thymeleaf na parte do front-end``
+- ``Html, CSS, JS, Bootstrap e Thymeleaf na parte do front-end``
 - ``Eclipse como IDE``
 - ``MySQL como banco de dados``
 - ``JUnit e Mockito para os testes``
