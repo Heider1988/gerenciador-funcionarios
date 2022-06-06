@@ -65,7 +65,7 @@ Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir o
 
 ## Acesso ao projeto
 
-Você pode acessar o projeto rodando no heroku: https://bluefood2.herokuapp.com/
+Você pode acessar o projeto rodando no heroku: https://app-conectja.herokuapp.com/home
 
 ## Abrir e rodar o projeto
 
