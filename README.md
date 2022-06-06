@@ -64,8 +64,7 @@ Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir o
 
 
 ## Acesso ao projeto
-
-Você pode acessar o projeto rodando no heroku: https://app-conectja.herokuapp.com/home
+<a target="_blank" href="https://app-conectja.herokuapp.com/home">Clique aqui para acessar o projeto no Heroku</a></p>
 
 ## Abrir e rodar o projeto
 
