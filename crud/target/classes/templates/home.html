@@ -1,0 +1,50 @@
+
+<head th:replace="~{layoutBase :: head}">
+</head>
+<body>
+	<div th:replace="~{layoutBase :: navbar}"></div>
+	<div class="container mb-2">
+		<h1>Funcionarios</h1>
+		<table class="table table-light">
+			<tr class="table-dark">
+				<th></th>
+				<th scope="col">Nome</th>
+				<th scope="col">Cargo</th>
+				<th scope="col">Email</th>
+				<th scope="col">Salario</th>
+				<th scope="col">Setor</th>
+				<th scope="col"></th>
+			</tr>
+			<tr th:each="func : ${funcionarios}">
+				<th scope="row"></th>
+				<td>
+					<span th:text="${func.nome}"></span>
+				</td>
+				<td>
+					<span th:text="${func.cargo}"></span>
+				</td>
+				<td>
+					<span th:text="${func.email}">
+				</td>
+				<td>
+					<span th:text="${#numbers.formatCurrency(func.salario)}"></span>
+				</td>
+				<td>
+					<span th:text="${func.setor}"></span>
+				</td>
+				<td class="buttons ">
+					<a th:href="@{form/{id}(id=${func.id})}" th:method="get" class="btn btn-warning">
+						<i class="fa fa-pencil"></i>
+					</a>
+					<a th:href="@{delete/{id}(id=${func.id})}" th:method="delete" class="btn btn-danger">
+						<i class="fa fa-trash"></i>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<a href="/form">
+			<button class="btn btn-dark">Adicionar funcionario</button>
+		</a>
+	</div>
+</body>
+</html>
