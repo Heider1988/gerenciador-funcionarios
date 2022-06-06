@@ -26,7 +26,7 @@
 <p align="justify">
 Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir os funcionários de determinados setores .
  
-![](https://raw.githubusercontent.com/Heider1988/arquivos_imagens/main/tela-login-bluefood.png?token=GHSAT0AAAAAABVERTCP62M4FXUQAQ4RKXRIYUY3ZXA)
+![](https://raw.githubusercontent.com/Heider1988/gerenciador-funcionarios/main/Screenshot_1.png)
 
 </p>
 
@@ -34,21 +34,17 @@ Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir o
 
 ## Funcionalidades
 
-:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos usuários, podendo ser restaurante ou cliente.
+:heavy_check_mark: `Funcionalidade 1:` Realizar cadastro dos funcionários, podendo ser do setor de Tecnologia, Diretoria ou Recursos Humanos.
 
-:heavy_check_mark: `Funcionalidade 2:` Ao realizar o cadastro o restaurante poderá cadastrar tipos de comidas e categorias que há em seu estabelecimento, já o cliente poderá realizar os pedido de comida.
+:heavy_check_mark: `Funcionalidade 2:` Editar o cadastro dos funcionários.
 
-:heavy_check_mark: `Funcionalidade 3:` Quando o cliente realizar um pedido o restaurante imediantamente receberá o pedido e trocará a ordem do pedido de realizado para em produção..
-
-:heavy_check_mark: `Funcionalidade 4:` Cliente poderá pagar pelo cartão de crédito e acompanhar o seu pedido em tempo real.
-
-:heavy_check_mark: `Funcionalidade 5:` O módulo "sbpay" que está na raiz do projeto é uma aplicação web service que pode ser instalado em qualquer servidor a parte. Serve apenas para emular o pagamento do cliente via cartão de crédito. Se o cartão começa com números 1111 será aprovado o pedido, caso contrário a aplicação enviará uma mensagem de retorno ao cliente informando que o pagamento não foi autorizado.
+:heavy_check_mark: `Funcionalidade 3:` Excluir o cadastro dos funcionários.
 
 ## Aplicação
 
 <div align="center">
 
- ![](https://raw.githubusercontent.com/Heider1988/arquivos_imagens/main/gif-bluefood.gif?token=GHSAT0AAAAAABVERTCOWVZ7KK7OJJUFJXJ4YUY3ZEQ)
+ ![](https://raw.githubusercontent.com/Heider1988/gerenciador-funcionarios/main/crud-conectja.gif)
 
 </div>
 
@@ -60,10 +56,9 @@ Gerenciador de Funcionários onde a empresa consegue inserir, editar e excluir o
 - ``Spring Boot como Framework na construção da aplicação``
 - ``Html, CSS, JS e Thymeleaf na parte do front-end``
 - ``Eclipse como IDE``
-- ``Postman para web service``
-- ``MySQL, PostgreSQL e H2 Database Engine como banco de dados``
+- ``MySQL como banco de dados``
 - ``JUnit e Mockito para os testes``
-- ``AWS e Heroku para executar o deploy da aplicação``
+- ``Heroku para executar o deploy da aplicação``
 
 ###
 
@@ -78,9 +73,9 @@ Para compilar o projeto em sua máquina local:
 
 :heavy_check_mark: `Etapa 1:` Deve ter o Eclipse ou outra IDE da sua preferência instalada em sua máquina.
 </br>
-:heavy_check_mark: `Etapa 2:` Banco de dados da sua preferência instalado. Já está adicionado ao gradle do projeto as depências do banco MySQL e Postgree. Se estiver comentado alguma dessa depência basta descomentar conforme a sua necessidade.
+:heavy_check_mark: `Etapa 2:` Banco de dados da sua preferência instalado. Já está adicionado ao porm.xml do projeto a depência do banco MySQL. Se estiver comentado alguma dessa depência basta descomentar conforme a sua necessidade.
 </br>
-:heavy_check_mark: `Etapa 3:` Agora basta importar o projeto e alterar o login e senha de banco de dados que está no arquivo application-dev.properties.
+:heavy_check_mark: `Etapa 3:` Agora basta importar o projeto e alterar o login e senha de banco de dados que está no arquivo application.properties.
 
 ## Desenvolvedores
 <div id="badges">
